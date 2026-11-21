@@ -1,0 +1,31 @@
+# Dependencias y artefactos de compilación
+node_modules/
+dist/
+bin/
+obj/
+.vs/
+*.user
+*.suo
+
+# Registros y temporales
+*.log
+tmp/
+publish/
+
+# Configuración local con secretos
+.env
+.env.*
+!.env.example
+appsettings*.json
+!appsettings.example.json
+
+# Credenciales y claves
+*.pfx
+*.p12
+*.key
+
+# Sistema operativo
+Thumbs.db
+desktop.ini
+
+documentacion_entrega/
